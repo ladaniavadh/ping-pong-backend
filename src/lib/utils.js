@@ -5,6 +5,7 @@ const self = module.exports = {
   urlCons: require('../constants/url-constants'),
   configCons: require('../constants/config-constants'),
   dbCons: require('../constants/db-constants'),
+  msCons: require('../constants/ms-constants'),
   msgCons: require('../constants/msg-constants'),
   httpStatusCode: require('http-status-codes'),
   dbOperationCons: require('../constants/db-operation-constants'),
