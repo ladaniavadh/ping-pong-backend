@@ -1,0 +1,12 @@
+apps:
+  -
+    name: Game-Management-Service
+    restart_delay: 100
+    script: "./bin/www"
+    autorestart: true
+    env:
+      NODE_ENV: default
+    env_dev:
+      NODE_ENV: dev
+    env_production:
+      NODE_ENV: production
