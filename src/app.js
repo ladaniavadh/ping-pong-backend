@@ -9,7 +9,7 @@ const utils = require('./lib/utils')
 
 const app = express()
 
-app.options('*', cors(config.cors))
+app.use(cors(config.cors))
 app.use(express.json())
 app.use(express.urlencoded({
   extended: false
